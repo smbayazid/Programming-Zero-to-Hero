@@ -1,0 +1,39 @@
+1. Write a program to Print the following statement:
+    "Hello World!"
+
+2. Write a program to Print the Followings using Arithmetic operations
+    2 + 3 = ?
+    3 - 2 = ?
+    2 * 3 = ?
+    5 / 2 = ?
+
+3. Write a program to Ask user to Enter the name and greet the user.
+
+4. Write a program to Take two numbers input and fine the followings:
+    i. Sum 
+    ii. Subtraction 
+    iii. Multiplication 
+    iv. Division
+    v. Square
+    vi. Modulus
+
+5. Write a program to enter length in centimeter and convert it into meter and kilometer.
+
+6. Write a program to Determine the area of:
+    i. Square
+    ii. Rectangle
+    iii. Circle
+    iv. Triangle
+
+7. Write a program to Convert temperature
+    i. Celsius to Fahrenheit
+    ii. Fahrenheit to Celsius
+
+8. Write a program to enter two angles of a triangle and find the third angle.
+
+9. Write a program to enter marks of five subjects and calculate total, average and percentage.
+
+10. . Write a program to enter P, T, R and calculate:
+    i. Simple Interest
+    ii. Compound Interest
+

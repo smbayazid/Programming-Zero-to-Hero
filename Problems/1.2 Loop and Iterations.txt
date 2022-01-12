@@ -1,0 +1,82 @@
+01. Write a program using both For and While Loop to perform the following serieses:
+    i. print 1 to n
+    ii. print n to 1
+    iii. print a to z
+    iv. print all even numbers and all odd numbers seperately
+    v. find sum of 1 to 100
+    vi. find sum of all even numbers and all odd numbers seperately
+
+02. Write a program to print multiplication table of any number.
+
+03. Write a program to:
+    i. count number of digits in a number
+    ii. find sum of first and last digit of a number
+    iii. swap first and last digits of a number
+    iv. calculate sum of digits of a number
+    v. calculate product of digits of a number.
+    vi. enter a number and print its reverse.
+
+04. Write a program to check whether a number is palindrome or not.
+
+05. Write a program to find frequency of each digit in a given integer.
+
+06. Write a program to enter a number and print it in words.
+
+07. Write a program to find all factors of a number.
+
+08. Write a program to calculate factorial of a number.
+
+09. Write a program to find:
+    i. HCF (GCD) of two numbers.
+    ii. LCM of two numbers.
+
+10. Write a program to:
+    i. check whether a number is Prime number or not
+    ii. print all Prime numbers between 1 to n
+    iii. find sum of all prime numbers between 1 to n
+
+11. Write a program to find all prime factors of a number.
+
+12. Write a program to:
+    i. check whether a number is Armstrong number or not
+    ii. print all Armstrong numbers between 1 to n
+
+13. Write a program to:
+    i. check whether a number is Perfect number or not
+    ii. print all Perfect numbers between 1 to n
+
+14. Write a program to:
+    i. check whether a number is Strong number or not
+    ii. print all Strong numbers between 1 to n
+
+15. Write a program to print Fibonacci series up to n terms.
+
+16. Write a program to find:
+    i. one's complement of a binary number.
+    ii. two's complement of a binary number.
+
+17. Write a program to:
+    i. convert Binary to Octal number system
+    ii. convert Binary to Decimal number system
+    iii. convert Binary to Hexadecimal number system
+    iv. convert Octal to Binary number system
+    v. convert Octal to Decimal number system
+    vi. convert Octal to Hexadecimal number system
+    vii. convert Decimal to Binary number system
+    viii. convert Decimal to Octal number system
+    ix. convert Decimal to Hexadecimal number system
+    x. convert Hexadecimal to Binary number system
+    xi. convert Hexadecimal to Octal number system
+    xii. convert Hexadecimal to Decimal number system
+
+18. Write a program to print Pascal triangle upto n rows.
+
+19. Star pattern programs - . Write a program to print the given star patterns.
+    ***
+    TBA
+    ***
+
+20. Number pattern programs - . Write a program to print the given number patterns.
+    ***
+    TBA
+    ***
