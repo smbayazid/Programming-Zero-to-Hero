@@ -1,30 +1,73 @@
 01. Write a program using both For and While Loop to perform the following serieses:
     i. print 1 to n
+        1 2 3 4 . . . . . . . . . n
+
     ii. print n to 1
-    iii. print a to z
+        n . . . . . . . . . 4 3 2 1
+
+    iii.print a to z and A to Z
+        a b c d . . . . . . w x y z
+        A B C D . . . . . . W X Y Z
+
     iv. print all even numbers and all odd numbers seperately
+        1 3 5 7 . . . . . . 95 97 99
+        2 4 6 8 . . . . . . 96 98 100
+
     v. find sum of 1 to 100
+        1 + 2 + 3 + . . . . + 98 + 99 + 100 = ???
+
     vi. find sum of all even numbers and all odd numbers seperately
+        1 + 3 + 5 + . . . . + 95 + 97 + 99  = ???
+        2 + 4 + 6 + . . . . + 96 + 98 + 100 = ???
 
 02. Write a program to print multiplication table of any number.
+        1 X 5 = 5
+        2 X 5 = 10
+        3 X 5 = 15
+        . . . . . .
+        . . . . . .
+        10 X 5 = 50
 
 03. Write a program to:
     i. count number of digits in a number
-    ii. find sum of first and last digit of a number
-    iii. swap first and last digits of a number
-    iv. calculate sum of digits of a number
-    v. calculate product of digits of a number.
-    vi. enter a number and print its reverse.
+        Input: 23581
+        Output: 23581 has 5 digits
 
-04. Write a program to check whether a number is palindrome or not.
+    ii. find sum of first and last digit of a number
+        Input: 6739
+        Output: 6 + 9 = 15
+
+    iii. swap first and last digits of a number
+        Input: 47843
+        Output: 37844
+
+    iv. calculate sum of digits of a number
+        Input: 2655
+        Output: 2 + 6 + 5 + 5 = 18
+
+    v. calculate product of digits of a number
+        Input: 1325
+        Output: 1 X 3 X 2 X 5 = 30
+
+    vi. enter a number and print its reverse
+        Input: 6739
+        Output: 9376 
+
+04. Write a program to check whether a number or string is palindrome or not.
+        Input: 112532               Input: 1234321
+        Output: Not Palindrome      Output: Palindrome
 
 05. Write a program to find frequency of each digit in a given integer.
 
 06. Write a program to enter a number and print it in words.
+    Input: 4378
+    Output: Four Thousand Seventy Eight
 
-07. Write a program to find all factors of a number.
+07. Write a program to find all factors of a number
 
-08. Write a program to calculate factorial of a number.
+08. Write a program to calculate factorial of a number
+    Input: 5
+    Output: 5! = 1 X 2 X 3 X 4 X 5 = 120
 
 09. Write a program to find:
     i. HCF (GCD) of two numbers.
@@ -32,24 +75,54 @@
 
 10. Write a program to:
     i. check whether a number is Prime number or not
+        Input: 1            Input: 3        Input: 15           Input: 23
+        Output: Not Prime   Output: Prime   Output: Not Prime   Output: Prime
+
     ii. print all Prime numbers between 1 to n
+        Input: 50
+        Output: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47
+
     iii. find sum of all prime numbers between 1 to n
+        Input: 30
+        Output: 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 = ???
 
 11. Write a program to find all prime factors of a number.
 
 12. Write a program to:
     i. check whether a number is Armstrong number or not
+        3**3 + 7**3 + 1**3 = 371 => is a Armstrong number
+        Input: 412                      Input: 153
+        Output: Not Armstrong number  Output: Armstrong number
+
     ii. print all Armstrong numbers between 1 to n
+        Input: 1000
+        Output: 1, 153, 370, 371, 407
 
 13. Write a program to:
     i. check whether a number is Perfect number or not
+        Positive integer which equals the sum of all its divisors
+        6 => 1 + 2 + 3 = 6 => 6 is Perfect number
+        Input: 28               Input: 50
+        Output: Perfect number  Output: Not Perfect number
+
     ii. print all Perfect numbers between 1 to n
+        Input: 100
+        Output: 6, 28
 
 14. Write a program to:
     i. check whether a number is Strong number or not
+        Strong Numbers are the numbers whose sum of factorial of digits is equal to the original number.
+        145 => 1! + 4! + 5! = 1 + 24 + 120 = 145 => Strong number
+        Input: 35429                Input: 40585
+        Output: Not Strong Number   Output: Strong Number
+
     ii. print all Strong numbers between 1 to n
+        Input: 200
+        Output: 1, 2, 145
 
 15. Write a program to print Fibonacci series up to n terms.
+        Input: 10
+        Output: 1 1 2 3 5 8 13 21 34 55
 
 16. Write a program to find:
     i. one's complement of a binary number.
@@ -72,11 +145,117 @@
 18. Write a program to print Pascal triangle upto n rows.
 
 19. Star pattern programs - . Write a program to print the given star patterns.
-    ***
-    TBA
-    ***
+    i.  Diamond - Top-Right (Input: 5) 
+            *
+            * *
+            * * *
+            * * * *
+            * * * * *
+
+    ii.  Diamond - Bottom-Right (Input: 5)
+            * * * * *
+            * * * *
+            * * *
+            * *
+            *
+    
+    iii.Diamond - Top-Left (Input: 5)        
+                    *
+                  * *
+                * * *
+              * * * *
+            * * * * *
+
+    iv. Diamond - Bottom-Left (Input: 5) 
+            * * * * *
+              * * * *
+                * * *
+                  * *
+                    *
+    
+    v.  Full Diamond (Input: 5)          
+                    *                                                                  
+                  * * *                                                                 
+                * * * * *                                                                
+              * * * * * * *                                                               
+            * * * * * * * * *                                                              
+              * * * * * * *                                                               
+                * * * * *                                                                
+                  * * *                                                                 
+                    *
 
 20. Number pattern programs - . Write a program to print the given number patterns.
-    ***
-    TBA
-    ***
+    i.  Input: 5   
+            1
+            1 2
+            1 2 3
+            1 2 3 4
+            1 2 3 4 5
+    
+    ii. Input: 5   
+            1
+            2 2
+            3 3 3
+            4 4 4 4
+            5 5 5 5 5
+    
+    iii.Input: 5  
+            1
+            2  3
+            4  5  6
+            7  8  9  10
+            11 12 13 14 15
+
+    iv. Input: 5        
+                 1                                                               
+                2  3                                                              
+               4  5  6                                                             
+              7  8  9 10 
+            11 12 13 14 15
+        
+    v.  Input: 5       
+                1
+               2 2
+              3 3 3
+             4 4 4 4
+            5 5 5 5 5
+
+    vi. Pascal's Pyramid (Input: 5)
+                    1                                                            
+                  1   1                                                          
+                1   2   1                                                        
+              1   3   3   1                                                      
+            1   4   6   4   1
+
+    vii. Pascal's Triangle (Input: 7)
+            1                                                                      
+            1   1                                                                  
+            1   2   1                                                              
+            1   3   3   1                                                          
+            1   4   6   4   1                                                      
+            1   5   10   10   5   1                                                
+            1   6   15   20   15   6   1
+
+    viii. Number Triangle (Input: 5)
+                    1                                                                  
+                  1 2 1                                                                 
+                1 2 3 2 1                                                                
+              1 2 3 4 3 2 1                                                               
+            1 2 3 4 5 4 3 2 1
+
+    ix. Pattern of power of 2 (Input: 5)
+                        1
+                     1  2  1  
+                  1  2  4  2  1  
+               1  2  4  8  4  2  1  
+            1  2  4  8  16 8  4  2  1
+
+    x. Square Matrix with 0's down the main diagonal (Input: 8)
+            0  1  2  3  4  5  6  7                                                                                        
+            1  0  1  2  3  4  5  6                                                                                        
+            2  1  0  1  2  3  4  5                                                                                        
+            3  2  1  0  1  2  3  4                                                                                        
+            4  3  2  1  0  1  2  3                                                                                        
+            5  4  3  2  1  0  1  2                                                                                        
+            6  5  4  3  2  1  0  1                                                                                        
+            7  6  5  4  3  2  1  0 
