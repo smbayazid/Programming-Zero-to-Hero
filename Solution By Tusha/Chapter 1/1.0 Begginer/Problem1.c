@@ -2,7 +2,9 @@
 
 int main(){
 
-    print("Hello World!");
+    printf("Hello World!\n");
+
+    printf("Hello Bangladesh!");
 
     return 0;
 }
