@@ -1,0 +1,8 @@
+1. take house number, road number, area, city, zip code as input. and print like this:
+
+    Address:
+        House: ###, Road: ##,
+        area, city-zip code,
+        Bangladesh
+
+2.
