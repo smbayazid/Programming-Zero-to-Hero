@@ -1,1 +1,2 @@
-float
+
+        printf("XXX");
